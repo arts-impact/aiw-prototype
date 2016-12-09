@@ -1,0 +1,81 @@
+[
+  {
+    "_id" : "d8ac31cd-cbed-4023-b26a-14138f08ebdb",
+    "auth0id" : "facebook|10153993791437742",
+    "firstName" : "Ben",
+    "surname" : "Jones",
+    "email" : "ben@climb.rs",
+    "roles" : [
+      {
+        "_gymId" : "d54a36a0-38a2-4c75-a9cc-e71cc3f1c384",
+        "gymName" : "Brooklyn Boulders",
+        "role": "routesetter"
+      },
+      {
+        "_gymId" : "ca7c9960-119e-4ca0-a98f-ce2d548b6f2e",
+        "gymName" : "Chicago Boulders",
+        "role": "Gym Manager"
+      },
+      {
+        "_gymId" : "5b70a36d-d3fe-4fb9-ab2e-16ef5b751013",
+        "gymName" : "Joshua Tree",
+        "role": "Climber"
+      },
+      {
+        "_gymId" : "27a85dbe-7e6d-4fa6-b354-7487f01956f2",
+        "gymName" : "The Cragg",
+        "role": "Climber"
+      }
+    ],
+    "climbs" : [
+      {
+        "_id" : "cc3f4a27-cf9c-4e34-b8b7-409f8c90ff40",
+        "_routeId" : "6a7baadf-7a2a-49d1-aa5b-6cf9ee5eeb0d",
+        "grade" : "6b", // Store this denormalised here so that we don't have to query the Routes for basic tasks
+        "routeStyle" : "climbing", // Same here
+        "success": true,
+        "attemptStyle" : "Flash" //Optional
+      },
+      {
+        "_id" : "cc3f4a27-cf9c-4e34-b8b7-409f8c90ff40",
+        "_routeId" : "6a7baadf-7a2a-49d1-aa5b-6cf9ee5eeb0d",
+        "grade" : "6b", // Store this denormalised here so that we don't have to query the Routes for basic tasks
+        "routeStyle" : "climbing", // Same here
+        "success": true,
+        "attemptStyle" : "Flash" //Optional
+      },
+      {
+        "_id" : "cc3f4a27-cf9c-4e34-b8b7-409f8c90ff40",
+        "_routeId" : "6a7baadf-7a2a-49d1-aa5b-6cf9ee5eeb0d",
+        "grade" : "6b", // Store this denormalised here so that we don't have to query the Routes for basic tasks
+        "routeStyle" : "climbing", // Same here
+        "success": true,
+        "attemptStyle" : "Flash" //Optional
+      },
+      {
+        "_id" : "cc3f4a27-cf9c-4e34-b8b7-409f8c90ff40",
+        "_routeId" : "6a7baadf-7a2a-49d1-aa5b-6cf9ee5eeb0d",
+        "grade" : "6b", // Store this denormalised here so that we don't have to query the Routes for basic tasks
+        "routeStyle" : "climbing", // Same here
+        "success": true,
+        "attemptStyle" : "Flash" //Optional
+      },
+      {
+        "_id" : "cc3f4a27-cf9c-4e34-b8b7-409f8c90ff40",
+        "_routeId" : "6a7baadf-7a2a-49d1-aa5b-6cf9ee5eeb0d",
+        "grade" : "6b", // Store this denormalised here so that we don't have to query the Routes for basic tasks
+        "routeStyle" : "climbing", // Same here
+        "success": true,
+        "attemptStyle" : "Flash" //Optional
+      },
+      {
+        "_id" : "cc3f4a27-cf9c-4e34-b8b7-409f8c90ff40",
+        "_routeId" : "6a7baadf-7a2a-49d1-aa5b-6cf9ee5eeb0d",
+        "grade" : "6b", // Store this denormalised here so that we don't have to query the Routes for basic tasks
+        "routeStyle" : "climbing", // Same here
+        "success": true,
+        "attemptStyle" : "Flash" //Optional
+      }
+    ]
+  }
+]

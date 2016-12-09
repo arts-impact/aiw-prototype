@@ -1,0 +1,542 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gym",
+				"gymSchema"
+			],
+			[
+				"sec",
+				"sectorSchema"
+			],
+			[
+				"ava",
+				"avatarUrl\t(Gyms.json)"
+			],
+			[
+				"acti",
+				"activityType\t(Gyms.json)"
+			],
+			[
+				"sett",
+				"settingActivitySchema"
+			],
+			[
+				"settin",
+				"settingActivity"
+			],
+			[
+				"image",
+				"imageUrl\t(Gyms.json)"
+			],
+			[
+				"cir",
+				"circuitSchema"
+			],
+			[
+				"routeTy",
+				"routeTypeSchema"
+			],
+			[
+				"show",
+				"showDateSetOnRouteCard"
+			],
+			[
+				"openin",
+				"openingHoursSchema"
+			],
+			[
+				"open",
+				"openingHoursSchema"
+			],
+			[
+				"Gym",
+				"GymsMockup"
+			],
+			[
+				"add",
+				"addGym\t(gym.controller.js)"
+			],
+			[
+				"sav",
+				"savedGyms"
+			],
+			[
+				"drop",
+				"dropSpecificDB"
+			],
+			[
+				"test",
+				"testDbId"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"date",
+				"InsertDate: Default"
+			],
+			[
+				"UUI",
+				"Generate UUID v4"
+			],
+			[
+				"uui",
+				"Generate UUID v4"
+			],
+			[
+				"inserda",
+				"InsertDate: Default"
+			],
+			[
+				"inserdat",
+				"InsertDate: Custom"
+			],
+			[
+				"insert da",
+				"InsertDate: Default"
+			],
+			[
+				"packag ins",
+				"Package Control: Install Package"
+			],
+			[
+				"uuid",
+				"Generate UUID v4"
+			],
+			[
+				"exp",
+				"ExpandRegion"
+			],
+			[
+				"expa",
+				"ExpandRegion"
+			],
+			[
+				"expan",
+				"ExpandRegion"
+			],
+			[
+				"fake",
+				"Snippet: fakeimg"
+			],
+			[
+				"gneer",
+				"Generate single UUID v4"
+			],
+			[
+				"packa",
+				"Package Control: Add Channel"
+			],
+			[
+				"spac",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"quote",
+				"ChangeQuotes"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/shankie/Sites/climbrs-js/server/models/gym.js",
+		"/Users/shankie/Sites/climbrs-js/server/models/__tests__/gym.spec.js",
+		"/Users/shankie/Sites/climbrs-js/server/controllers/gym.controller.js",
+		"/Users/shankie/Sites/climbrs-js/package.json",
+		"/Users/shankie/Sites/climbrs-js/.eslintrc",
+		"/Users/shankie/Sites/climbrs-js/server/dummyData.js",
+		"/Users/shankie/Sites/climbrs-js/server/mockups-deprecated/Gyms.json",
+		"/Users/shankie/Sites/climbrs-js/server/util/test-helpers.js",
+		"/Users/shankie/Sites/climbrs-js/server/models/settingActivity.js",
+		"/Users/shankie/Sites/climbrs-js/server/server.js",
+		"/Users/shankie/Sites/climbrs-js/webpack.config.babel.js",
+		"/Users/shankie/Sites/climbrs-js/server/mockups/StandingData.json",
+		"/Users/shankie/Sites/climbrs-js/server/mockups/Gyms.json",
+		"/Users/shankie/Sites/climbrs-js/mockups/StandingData.json",
+		"/Users/shankie/Sites/climbrs-js/mockups/Gyms.json",
+		"/Users/shankie/Sites/climbrs-js/index.js",
+		"/Users/shankie/Sites/climbrs-js/server/routes/gym.routes.js",
+		"/Users/shankie/.ssh/config",
+		"/Users/shankie/Sites/climbrs-js/coverage/lcov-report/server/controllers/gym.controller.js.html",
+		"/Users/shankie/Sites/climbrs-js/mockups/Routes.json",
+		"/Users/shankie/Sites/climbrs-js/mockups/Users.json",
+		"/Users/shankie/Library/Application Support/Sublime Text 3/Packages/User/insert_date.sublime-settings",
+		"/Users/shankie/Library/Application Support/Sublime Text 3/Packages/InsertDate/insert_date.sublime-settings",
+		"/Users/shankie/Sites/climbrs-js/server/User.json",
+		"/Users/shankie/Sites/climbrs-js/server/models/line.js",
+		"/Users/shankie/Sites/climbrs-js/server/models/route.js",
+		"/Users/shankie/Sites/climbrs-js/server/models/activity.js",
+		"/Users/shankie/Sites/climbrs-js/server/config.js",
+		"/Users/shankie/Sites/climbrs-js/server/util/setup-test-env.js",
+		"/Users/shankie/.ssh/known_hosts",
+		"/Users/shankie/Sites/climbrs-js/.npmrc",
+		"/usr/local/etc/dnsmasq.conf",
+		"/etc/resolver/localhost",
+		"/Users/shankie/Sites/climbrs-js/docker-compose-development.yml"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"<project>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"api",
+			"config",
+			"5d7",
+			"\" ",
+			"_id",
+			"routes",
+			"babel_disable",
+			"dummy",
+			"polyfill",
+			"async",
+			"false",
+			"true",
+			"logo",
+			"permissionLevel",
+			"shard",
+			"\n",
+			"Route",
+			"route",
+			"line",
+			"ae8tryu3498urw9ujsdfjws",
+			"ae8tryu3498urw9ujsdfjwz",
+			"ae8tryu3498urw9ujsdfjws",
+			".0",
+			"line",
+			"[0]",
+			"gym",
+			"mongourl",
+			"mongoose",
+			"70",
+			"app",
+			"mongo_url",
+			"parsnip",
+			"ae8tryu3498urw9ujsdfjwz",
+			"after",
+			"mongo_url",
+			"mockgoos",
+			"gyms",
+			"test.",
+			"serial",
+			"test",
+			"ae8tryu3498urw9ujsdfjwz",
+			"ciuzfy57v0000hcv5oaf9snal",
+			"ae8tryu3498urw9ujsdfjwz",
+			"ciuzfy57v0000hcv5oaf9snal",
+			"ae8tryu3498urw9ujsdfjws",
+			"ae8tryu3498urw9ujsdfjwz",
+			"\"",
+			"ae8tryu3498urw9ujsdfjws",
+			"get",
+			".lines",
+			"console.",
+			"savedgym.lines.length",
+			"theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "slack-timezonezzz.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"eslint",
+				".eslintrc"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"gymcont",
+				"server/controllers/gym.controller.js"
+			],
+			[
+				"setting",
+				"server/models/settingActivity.js"
+			],
+			[
+				"test-help",
+				"server/util/test-helpers.js"
+			],
+			[
+				"dumm",
+				"server/dummyData.js"
+			],
+			[
+				"gymrout",
+				"server/routes/gym.routes.js"
+			],
+			[
+				"gym",
+				"server/models/gym.js"
+			],
+			[
+				"servercon",
+				"server/config.js"
+			],
+			[
+				"setup-tes",
+				"server/util/setup-test-env.js"
+			],
+			[
+				"server",
+				"server/server.js"
+			],
+			[
+				"testh",
+				"server/util/test-helpers.js"
+			],
+			[
+				"gymroute",
+				"server/routes/gym.routes.js"
+			],
+			[
+				"gysp",
+				"server/models/__tests__/gym.spec.js"
+			],
+			[
+				"test-",
+				"server/util/test-helpers.js"
+			],
+			[
+				"dum",
+				"server/dummyData.js"
+			],
+			[
+				"gyp",
+				"server/models/__tests__/gym.spec.js"
+			],
+			[
+				"gymcon",
+				"server/controllers/gym.controller.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "buil",
+		"selected_items":
+		[
+			[
+				"buil",
+				"~/SublimeProjects/proper-build.sublime-project"
+			],
+			[
+				"prop bu",
+				"~/SublimeProjects/proper-build.sublime-project"
+			],
+			[
+				"walli",
+				"~/SublimeProjects/thewallich.sublime-project"
+			],
+			[
+				"",
+				"~/Sites/climbrs-js/server/models/slack-timezonezzz.sublime-project"
+			],
+			[
+				"start",
+				"~/SublimeProjects/wordpress-starter.sublime-project"
+			],
+			[
+				"protal",
+				"~/SublimeProjects/https-portal-prod.sublime-project"
+			],
+			[
+				"anal",
+				"~/SublimeProjects/stopgap-analytics.sublime-project"
+			],
+			[
+				"build",
+				"~/SublimeProjects/proper-build.sublime-project"
+			],
+			[
+				"stop",
+				"~/SublimeProjects/stopgap.sublime-project"
+			],
+			[
+				"star",
+				"~/SublimeProjects/wordpress-starter.sublime-project"
+			],
+			[
+				"cbc",
+				"~/SublimeProjects/cbc-payments.sublime-project"
+			],
+			[
+				"proper",
+				"~/SublimeProjects/proper-site-install.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
