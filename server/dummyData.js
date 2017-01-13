@@ -1,5 +1,5 @@
 import Gym from './models/gym';
-import GymsMockup from './mockups-deprecated/Gyms.json';
+import GymsMockup from './static-models/Gyms.json';
 
 export default function () {
   Gym.count().exec((err, count) => {
