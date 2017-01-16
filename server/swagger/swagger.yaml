@@ -33,7 +33,9 @@ paths:
         "200":
           description: Success
           schema:
-            $ref: "#/definitions/getSingleProject"
+            allOf:
+            - $ref: "#/definitions/Project"
+            - $ref: "#/definitions/NewObjectSchema"
         default:
           description: Error
           schema:
@@ -49,16 +51,16 @@ paths:
           in: path
           required: true
         - name: name
-          description: Organisation properties
+          description: Project properties
           in: body
           required: true
           schema:
-            $ref: "#/definitions/Organisation"
+            $ref: "#/definitions/Project"
       responses:
         "200":
           description: Success
           schema:
-            $ref: "#/definitions/GeneralResponse"
+            $ref: "#/definitions/Project"
         default:
           description: Error
           schema:
@@ -95,7 +97,9 @@ paths:
           schema:
             type: array
             items:
-              $ref: "#/definitions/Project"
+              allOf:
+              - $ref: "#/definitions/Project"
+              - $ref: "#/definitions/NewObjectSchema"
         default:
           description: Error
           schema:
@@ -114,7 +118,9 @@ paths:
         "200":
           description: Success
           schema:
-            $ref: "#/definitions/GeneralResponse"
+            allOf:
+              - $ref: "#/definitions/Project"
+              - $ref: "#/definitions/NewObjectSchema"
         default:
           description: Error
           schema:
@@ -135,7 +141,9 @@ paths:
         "200":
           description: Success
           schema:
-            $ref: "#/definitions/getSingleOrganisation"
+            allOf:
+            - $ref: "#/definitions/Organisation"
+            - $ref: "#/definitions/NewObjectSchema"
         default:
           description: Error
           schema:
@@ -160,7 +168,9 @@ paths:
         "200":
           description: Success
           schema:
-            $ref: "#/definitions/GeneralResponse"
+            allOf:
+            - $ref: "#/definitions/Organisation"
+            - $ref: "#/definitions/NewObjectSchema"
         default:
           description: Error
           schema:
@@ -197,7 +207,9 @@ paths:
           schema:
             type: array
             items:
-              $ref: "#/definitions/getOrganisations"
+              allOf:
+              - $ref: "#/definitions/Organisation"
+              - $ref: "#/definitions/NewObjectSchema"
         default:
           description: Error
           schema:
@@ -217,7 +229,9 @@ paths:
         "200":
           description: Success
           schema:
-            $ref: "#/definitions/GeneralResponse"
+            allOf:
+            - $ref: "#/definitions/Organisation"
+            - $ref: "#/definitions/NewObjectSchema"
         default:
           description: Error
           schema:
@@ -226,22 +240,6 @@ paths:
     x-swagger-pipe: swagger_raw
 # complex objects have schema definitions
 definitions:
-  getSingleOrganisation:
-    type: object
-    allOf:
-      - $ref: '#/definitions/Organisation'
-  getOrganisations:
-    type: object
-    allOf:
-      - $ref: '#/definitions/Organisation'
-  getProjects:
-    type: object
-    allOf:
-      - $ref: '#/definitions/Project'
-  getSingleProject:
-    type: object
-    allOf:
-      - $ref: '#/definitions/Project'
   Project:
     type: object
     discriminator: name
@@ -414,3 +412,22 @@ definitions:
     properties:
       message:
         type: string
+  NewObjectSchema:
+      type: object
+      description: "Time and ID fields for new objects. Not modelled directly in Mongoose, comes from a combination of the built-in id/_id field, along with the { timestamps: true } option"
+      required:
+        - id
+        - createdAt
+        - updatedAt
+      properties:
+        id:
+          type: string
+          description: System-generated ID of the object
+        createdAt:
+          type: string
+          format: date-time
+          description: Date-time that entry was added, in ISO-8601 format
+        updatedAt:
+          type: string
+          format: date-time
+          description: Date-time that entry was updated, in ISO-8601 format
